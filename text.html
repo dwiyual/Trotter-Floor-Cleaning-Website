@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    body {
-        flex:left;
+    body section article {
+        flex-flow: column wrap;
+        background: navy;
+        color: white;
+        margin: 30%;
+        padding: 2%
+    }
+
+    nav {
+        background: navy;
+        color: white;
+        padding: 2%;
+        width: 100%;
+        height: 5%;
+    }
+    nav ul a {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        margin: 10px;
+
     }
 </style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,25 +35,33 @@
     <h1>Trotter Floor Cleaning</h1>
 </header>
 <nav>
-    <img src="#" alt="#">
-    <button class="navButton" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <img src="#" alt="Trotter Floor Cleaning Logo">
+    <ul>
         <a href="#">Home</a>
         <a href="#">About us</a>
         <a href="#">Apply</a>
-    </button>
+    </ul>
 </nav>
 
 <body>
-    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic quas voluptatem quae dolorum perspiciatis
-        esse adipisci officia iure a consectetur deserunt facilis inventore dolore, aliquid nam illum! Odio, dolorem.
-    </article>
-    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia suscipit nemo voluptas numquam eius, hic
-        dolore ducimus! Eos culpa repellat accusamus maiores ea soluta ipsam consequuntur, minus sapiente quidem
-        distinctio.</article>
-    <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas dicta incidunt fugiat distinctio
-        repellat, consectetur officia sit alias a omnis voluptatibus harum veritatis sunt dolorem. Inventore porro ab
-        nisi quibusdam.</article>
-    <p>this is the parragraph for this page.</p>
+    <section>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic quas voluptatem quae dolorum
+            perspiciatis
+            esse adipisci officia iure a consectetur deserunt facilis inventore dolore, aliquid nam illum! Odio,
+            dolorem.
+        </article>
+
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia suscipit nemo voluptas numquam eius,
+            hi
+            dolore ducimus! Eos culpa repellat accusamus maiores ea soluta ipsam consequuntur, minus sapiente quidem
+            distinctio.</article>
+
+
+        <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas dicta incidunt fugiat distinctio
+            repellat, consectetur officia sit alias a omnis voluptatibus harum veritatis sunt dolorem. Inventore porro
+            ab
+            nisi quibusdam.</article>
+    </section>        
 </body>
 <footer></footer>
 
