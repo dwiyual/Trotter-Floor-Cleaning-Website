@@ -1,43 +1,61 @@
+
+
+
 body {
     margin-left: 5%;
     margin-right: 5%;
-    background: #85a4d2;
+    background: rgb(248, 248, 248);
+    width: 100%;
+}
+
+section {
+    margin-top: 10%;
 }
 
     section article {
     flex-flow: column wrap;
     justify-content: space-evenly;
-    background: #39315B;
+    background: linear-gradient(#116772,#39315B);
     color: #F9F9F9;
     margin: 10%;
     padding: 10%;
-    
-
-
-
-    
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5),
+                -10px -10px 100px rgb(255, 255, 255);
+    border-radius: 5%;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 20%;
 }
 
 .navbar {
     background: #39315B;
+    position: fixed;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+    margin: 0 0 0 5px;
+    box-sizing: border-box;
+
+    
 }
 
-.navbar-brand {
-    color: #F9F9F9
+.navbar a {
+    color: #F9F9F9;
+    text-decoration: none;
 }
 
 
 
-nav ul {
-    justify-content: flex-end;;
+.navbar a:hover {
+    color: #116772;
 }
-
-nav ul a:hover {
-    color: #85a4d2;
-    border: #85a4d2;
-    background: #F9F9F9;
-
-}
+    
+   
+    
 
 
 footer {
@@ -48,7 +66,10 @@ footer {
 
 .aboutUs {
     color: #F9F9F9;
-    background: #85a4d2;
     text-align: center;
     margin: 0 auto;
+}
+
+@media(max-width: ) {
+    
 }
