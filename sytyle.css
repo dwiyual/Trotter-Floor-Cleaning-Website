@@ -12,7 +12,12 @@ section {
     margin-top: 10%;
 }
 
+section h2 {
+    margin-bottom: 20%;
+}
+
     section article {
+    display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
     background: linear-gradient(#116772,#39315B);
@@ -27,9 +32,15 @@ section {
     height: 20%;
 }
 
+section article img {
+    height: 30%;
+    width: 30%;
+    display: flex;
+}
+
 .navbar {
     background: #39315B;
-    color: #F9F9F9
+    color: #F9F9F9;
     position: fixed;
     top: 2px;
     right: 5%;
@@ -39,8 +50,8 @@ section {
     align-items: center;
     justify-content: space-around;
     height: 10%;
-    width: 100%;
-    margin: 0 0 0 5px;
+    width: 100vw;
+    margin: 0 0 0 0;
     box-sizing: border-box;
 
     

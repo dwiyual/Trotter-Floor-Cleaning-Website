@@ -39,9 +39,17 @@
                     rate. Just contact us and we will be happy to give a quote.
                 </p>
             </article>
+           
             <div class="services-container">
                 <article class="services" id="services">
                     <h2>Services</h2>
+                    <div class="Img-slider">
+                        <button class="previous-button" id="previous"><</button>
+                        <div>
+                            <img class="imgs" src="photos/pexels-pixabay-48889 (1).jpg"></img>
+                        </div>
+                        <button class = "next-button" id="next">></button>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia suscipit nemo voluptas numquam
                         eius,
                         hi dolore ducimus! Eos culpa repellat accusamus maiores ea soluta ipsam consequuntur, minus
@@ -101,7 +109,17 @@
             </div>
     </section>
 </body>
-<footer></footer>
+<script>
+    const images = document.getElementsByClassName('imgs');
+    const sliderContainer = document.getElementByClassName('services-container');
+    let numberofImgs = document.getElementsByClassName('imgs').length;
+    let imgIndex = 1;
+    let tranlatex = 0;
+
+
+
+
+</script>
 
 
 </html>
